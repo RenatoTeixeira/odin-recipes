@@ -1,15 +1,29 @@
 * {
     background-color: #ece3e3;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: justify;
+    text-align: left;
+    margin: auto;
+    width: 900px;
+}
+
+ul, ol {
+    text-align: left ;
+    list-style-position: inside;
 }
 
 h1, h2 {
-    color: #ce2828;
+    color: #556c9c;
     font-size: 24px;
 }
 
 p, a, li {
-    color: #4a8080;
+    color: #6f7388;
     font-size: 29px;
+}
+
+img {
+    border: 5px;
+    border-color: #556c9c;
+    border-style: solid;
+    border-radius: 5%;
 }
